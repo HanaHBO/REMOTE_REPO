@@ -5,7 +5,8 @@ sap.ui.define([
 
   return BaseController.extend("project1.controller.App", {
       onInit() {
-        console.log("first init test git")
+        this.getView();
+        console.log("first init git")
       }
   });
 });
